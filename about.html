@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>about</h1>
+    <a href="index.html">Home route URL</a>
+    <a href="http://127.0.0.1:5500/index.html">Home 2 domain URL</a>
+    <a href="index2.html">Home wrong</a>
+    <a href="/index.html">Home 3</a>
+
+    <a href="pages/orders.html">Orders relative url</a>
+</body>
+
+<ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/pages/products.html">Products</a></li>
+    <li><a href="/pages/orders.html">Orders</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/new_index.html">New Home</a></li>
+</ul>
+
+<table>
+    <caption>Opening hours</caption>
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Open</th>
+            <th>Close</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Monday-Friday</td>
+            <td>09:00</td>
+            <td>21:00</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>09:00</td>
+            <td>24:00</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>09:00</td>
+            <td>12:00</td>
+        </tr>
+    </tbody>
+    <tfoot>&copy; 2019</tfoot>
+    <tfoot>
+        <tr>
+            <td>&copy; 2019</td>
+        </tr>
+    </tfoot>
+</table>
+
+<table border="10">
+    <caption>Opening hours</caption>
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Open</th>
+            <th>Close</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Monday-Friday</td>
+            <td>09:00</td>
+            <td rowspan="2">21:00</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>10:00</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td colspan="2">Closed</td>
+        </tr>
+    </tbody>
+    <tfoot>&copy; 2019</tfoot>
+    <tfoot>
+        <tr>
+            <td colspan="3">&copy; 2019</td>
+        </tr>
+    </tfoot>
+</table>
+
+</html>
